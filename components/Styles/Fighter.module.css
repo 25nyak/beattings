@@ -1,0 +1,40 @@
+.fighter {
+  position: absolute;
+  width: 100px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  transition: transform 0.1s;
+}
+
+.fighter .name {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.fighter .character {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.fighter .health {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.left {
+  left: 100px;
+  bottom: 100px;
+}
+
+.right {
+  right: 100px;
+  bottom: 100px;
+}
+
+.attack {
+  transform: translateX(-50px);
+}
